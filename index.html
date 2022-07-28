@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tech-EDU</title>
+    <!-- custom css -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,7 +16,7 @@
 <body>
     <!-- header start -->
     <header class="">
-        <div style="background-color: #e3f2fd;">
+        <div class="sticky-top" style="background-color: #e3f2fd;">
             <nav class="navbar navbar-expand-lg container">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"> <span class="fs-2 fw-bold text-success">Tech-Edu</span> </a>
@@ -44,7 +45,7 @@
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="#">Register</a>
                             </li>
-    
+
                         </ul>
                         <button class="btn btn-outline-success" type="submit">Register</button>
                         <!-- <form class="d-flex" role="search">   
@@ -53,7 +54,59 @@
                 </div>
             </nav>
         </div>
-      
+
+        <section class="container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div>
+                            <img src="images/cover/cover-1.png" class="d-block w-100 img-fade" alt="...">
+                            <div class="carousel-caption mobile desktop mb-4">
+                                <h1 class="fs-1">Get Started Digital <br> Learning</h1>
+                                <p class="">It is a long established fact that a reader will be distracted by
+                                    the readable content of a page when looking at its layout.</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="">
+                            <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fade" alt="...">
+                            <div class="carousel-caption mobile desktop mb-4">
+                                <h1 class="fs-1 carousel-h1">Get Started Digital <br> Learning</h1>
+                                <p class="">It is a long established fact that a reader will be distracted by
+                                    the readable content of a page when looking at its layout.</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div>
+                            <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fade" alt="...">
+                            <div class="carousel-caption mobile desktop mb-4">
+                                <h1 class="fs-1">Get Started Digital <br> Learning</h1>
+                                <p class="">It is a long established fact that a reader will be distracted by
+                                    the readable content of a page when looking at its layout.</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
     <!-- header end -->
     <main>
